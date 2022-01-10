@@ -1,7 +1,7 @@
 import java.io.Serializable;
 import java.util.Scanner;
 
-public class Person implements Serializable {
+public abstract class Person implements Serializable {
   String name;
   String sdt, cmnd;
   Address address;

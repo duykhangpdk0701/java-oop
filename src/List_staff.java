@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-public class List_staff extends Filehandle {
+public class List_staff implements Filehandle {
     int n;
     Staff[] arrPerson;
     Staff[] arrLogin = new Staff[1];

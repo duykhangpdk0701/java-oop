@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-public class List_phieudatphong extends Filehandle {
+public class List_phieudatphong implements Filehandle {
     Phieudatphong[] arrBooked;
     transient Scanner sc = new Scanner(System.in);
     Phieudatphong a;
